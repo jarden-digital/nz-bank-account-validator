@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba36e15c-09a3-44e5-86f6-511e73ef18df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="ba36e15c-09a3-44e5-86f6-511e73ef18df" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="105">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -108,6 +106,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1417" />
@@ -173,16 +172,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548709554273</updated>
-      <workItem from="1548709555909" duration="3413000" />
+      <workItem from="1548709555909" duration="3641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3413000" />
+    <option name="totallyTimeSpent" value="3641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26926133" />
@@ -260,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
