@@ -4,11 +4,6 @@
   "description": "Validates New Zealand bank accounts",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel native-cli watch",
-    "clean": "rm -rf $TMPDIR/react-* && rm -rf /tmp/metro-bundler-cache-* && watchman watch-del-all",
-    "clean-start": "npm run clean && npm run rc-start",
-    "fresh-install": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build/ModuleCache/* && rm -rf node_modules/ && npm cache clean && npm install",
-    "fresh-start": "npm run fresh-install && npm run rc-start",
     "test": "jasmine"
   },
   "repository": {
