@@ -1,4 +1,5 @@
 const data = require('./bankData.js')
+const leftPad = require('left-pad')
 const bankData = data.bankData
 
 const isValidBankAndBranch = (bankId, branch) => {
@@ -44,10 +45,10 @@ const getModulo = (bankId) => {
 }
 
 const isValidNZBankNumber = (bk, brch, acct, suf) => {
-  const bank = bk.padStart(2, '0')
-  const branch = brch.padStart(4, '0')
-  const account = acct.padStart(8, '0')
-  const suffix = suf.padStart(4, '0')
+  const bank = leftPad(bk, 2, '0')
+  const branch = leftPad(brch, 4, '0')
+  const account = leftPad(acct,8, '0')
+  const suffix = leftPad(suf, 4, '0')
   if (+account === 0) return false
   if (!isValidBankAndBranch(bank, branch)) return false
   const checkString = bank + branch + account + suffix

@@ -1,6 +1,6 @@
 {
   "name": "@fnzc/nz-bank-account-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validates New Zealand bank accounts",
   "main": "index.js",
   "typings": "./index.d.ts",
@@ -22,7 +22,9 @@
     "url": "https://github.com/fnzc/nz-bank-account-validator/issues"
   },
   "homepage": "https://github.com/fnzc/nz-bank-account-validator#readme",
-  "dependencies": {},
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  },
   "devDependencies": {
     "jasmine": "^3.3.1"
   }
