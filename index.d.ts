@@ -1,0 +1,1 @@
+export function isValidNZBankNumber(bk: string, brch: string, acct: string, suf: string): boolean

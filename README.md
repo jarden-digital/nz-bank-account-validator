@@ -1,17 +1,17 @@
 # nz-bank-account-validator
 
-[![npm](https://img.shields.io/npm/v/@fnzc/nz-bank-account-validator.svg)](https://www.npmjs.com/package/@fnzc/nz-bank-account-validator) [![npm](https://img.shields.io/npm/dt/@fnzc/nz-bank-account-validator.svg)](https://www.npmjs.com/package/@fnzc/nz-bank-account-validator.svg)
+[![npm](https://img.shields.io/npm/v/@fnzc/nz-bank-account-validator.svg)](https://www.npmjs.com/package/@fnzc/nz-bank-account-validator)
 
 _A validator for New Zealand bank accounts_
 
 ## Installation
 
 ```
-npm install --save nz-bank-account-validator
+npm install --save @fnzc/nz-bank-account-validator
 ```
 or
 ```
-yarn add nz-bank-account-validator
+yarn add @fnzc/nz-bank-account-validator
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Function requires four string parameters:
 Returns a boolean.
 
 ```
-var bankAccountValidator = require('nz-bank-account-validator');
+var bankAccountValidator = require('@fnzc/nz-bank-account-validator');
 bankAccountValidator.isValidNZBankNumber('00', '0000', '00000000', '000');
 ```
 

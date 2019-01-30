@@ -1,8 +1,9 @@
 {
-  "name": "nz-bank-account-validator",
-  "version": "1.0.0",
+  "name": "@fnzc/nz-bank-account-validator",
+  "version": "1.0.1",
   "description": "Validates New Zealand bank accounts",
   "main": "index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "test": "jasmine"
   },
