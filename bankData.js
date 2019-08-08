@@ -340,6 +340,6 @@ const bankData = [
       }
     ]
   }
-];
+]
 
-exports.bankData = bankData;
+exports.bankData = bankData
