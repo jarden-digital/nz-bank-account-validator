@@ -50,9 +50,11 @@ The first step in the validation process is to verify the bank branch number. Fo
 |01|0001 - 0999, 1100 - 1199, 1800 - 1899|See note|
 |02|0001 - 0999, 1200 - 1299|See note|
 |03|0001 - 0999, 1300 - 1399, 1500 - 1599, 1700 – 1799 , 1900 - 1999|See note|
+|04|2020 - 2024||
 |06|0001 - 0999, 1400 - 1499|See note|
 |08|6500 - 6599|D|
 |09|0000|E|
+|10|5165 - 5169|See note|
 |11|5000 - 6499, 6600 - 8999|See note|
 |12|3000 - 3299, 3400 – 3499, 3600 - 3699|See note|
 |13|4900 - 4999|See note|
@@ -77,6 +79,7 @@ The first step in the validation process is to verify the bank branch number. Fo
 |33|6700 - 6799|F|
 |35|2400 - 2499|See note|
 |38|9000 - 9499|See note|
+|88|8800 - 8805||
 
 **Note**: If the account base number is below 00990000 then apply algorithm A, otherwise apply algorithm B.
 
