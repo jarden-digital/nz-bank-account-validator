@@ -55,6 +55,15 @@ const bankData = [
     ]
   },
   {
+    id: 4,
+    branches: [
+      {
+        from: 2020,
+        to: 2024
+      }
+    ]
+  },
+  {
     id: 6,
     branches: [
       {
@@ -83,6 +92,15 @@ const bankData = [
         from: 0,
         to: 0
       }
+    ]
+  },
+  {
+    id: 10,
+    branches: [
+      {
+        from: 5165,
+        to: 5169
+      },
     ]
   },
   {
@@ -310,6 +328,15 @@ const bankData = [
       {
         from: 9000,
         to: 9499
+      }
+    ]
+  },
+  {
+    id: 88,
+    branches: [
+      {
+        from: 8800,
+        to: 8805
       }
     ]
   }

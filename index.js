@@ -47,7 +47,7 @@ const getModulo = (bankId) => {
 const isValidNZBankNumber = (bk, brch, acct, suf) => {
   const bank = leftPad(bk, 2, '0')
   const branch = leftPad(brch, 4, '0')
-  const account = leftPad(acct,8, '0')
+  const account = leftPad(acct, 8, '0')
   const suffix = leftPad(suf, 4, '0')
   if (+account === 0) return false
   if (!isValidBankAndBranch(bank, branch)) return false
